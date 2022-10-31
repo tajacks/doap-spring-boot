@@ -1,0 +1,21 @@
+alerts:
+  - rule: DEPLOYMENT_FAILED
+name: spring-boot-greeting
+region: tor
+services:
+  dockerfile_path: Dockerfile
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: tajacks/doap-spring-boot
+  health_check:
+    http_path: /greeting
+    initial_delay_seconds: 5
+  # Should match the server.port value found in application.properties
+  http_port: 8080
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  name: doap-spring-boot
+  routes:
+    - path: /
+  source_dir: /

@@ -1,7 +1,7 @@
-# DigitalOcean 
-Sample SpringBoot web application configured to run on Digital Oceans 'App Platform'. 
+# SpringBoot on Digital Ocean App Platform
+Sample SpringBoot web application configured to run on Digital Oceans 'App Platform'
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/tajacks/doap-spring-boot/tree/main)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/tajacks/doap-spring-boot/tree/main&refcode=b188b09a9931)
 
 
 ### Overview

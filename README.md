@@ -1,7 +1,7 @@
 # DigitalOcean 
 Sample SpringBoot web application configured to run on Digital Oceans 'App Platform'. 
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/{REPO-OWNER}/{REPO-NAME}/tree/{BRANCH-NAME})
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/tajacks/doap-spring-boot/tree/main)
 
 
 ### Overview
@@ -16,7 +16,9 @@ The following is configured as part of this template:
 2. Toronto location
 3. Auto-build & deploy on new main branch commits
 4. HTTP Health Monitor against our greeting controller
-5. Build & Deploy via two step Dockerfile
+5. Build & Deploy via two-step Dockerfile
+
+A custom domain is not included in the template, but can easily be configured after. 
 
 To understand the full configuration, please refer to the Digital Ocean [App Spec Reference](https://docs.digitalocean.com/products/app-platform/reference/app-spec/).
 

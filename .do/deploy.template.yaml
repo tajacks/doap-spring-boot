@@ -1,10 +1,8 @@
 spec:
-  name: spring-boot-greeting
+  name: doap-spring-boot
   services:
-    dockerfile_path: Dockerfile
-    github:
-      branch: main
-      deploy_on_push: true
-      repo: tajacks/doap-spring-boot
-    name: doap-spring-boot
-    source_dir: /
+    - dockerfile_path: Dockerfile
+      git:
+        branch: main
+        repo_clone_url: https://github.com/tajacks/doap-spring-boot
+      name: doap-spring-boot

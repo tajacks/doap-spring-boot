@@ -6,9 +6,9 @@ Sample SpringBoot web application configured to run on Digital Oceans 'App Platf
 
 ### Overview
 This is a sample application to serve as a base for deploying a SpringBoot app to Digital Ocean's 'App Platform'. This application
-responds to basic HTTPS GET requests to `/greeting` with a random greeting.
+responds to basic HTTP(s) GET requests to `/greeting` with a random greeting.
 
-A custom domain is not included in the template, but can easily be configured after. 
+A custom domain is not created automatically, but can easily be configured after. 
 
 To understand the full configuration, please refer to the Digital Ocean [App Spec Reference](https://docs.digitalocean.com/products/app-platform/reference/app-spec/).
 
